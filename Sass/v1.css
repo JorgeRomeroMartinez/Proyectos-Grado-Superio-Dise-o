@@ -1,0 +1,102 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: url(img/everest.jpg);
+}
+
+header, footer {
+  background-color: rgba(55, 0, 255, 0.145);
+  text-align: center;
+  font-size: 30px;
+  width: 100%;
+  height: 70px;
+  color: #eeeeee;
+  border-bottom: solid 2px #fdfdfd;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-backdrop-filter: blur(2px);
+          backdrop-filter: blur(2px);
+}
+
+header h1, footer h1 {
+  color: #eeeeee;
+  font-size: 50px;
+  padding-top: 5px;
+}
+
+header button, footer button {
+  margin-top: 19px;
+  background-color: white;
+  color: black;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+header button:hover, footer button:hover {
+  background-color: rgba(87, 87, 87, 0.857);
+}
+
+img {
+  width: 100%;
+  height: 100%;
+  border: solid 2px #fdfdfd;
+  margin-right: 10px;
+}
+
+.im2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contenedor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 30px;
+  padding-left: 30px;
+  color: white;
+  height: 400px;
+  font-size: 16px;
+}
+
+.contenedorinterno2 {
+  padding: 20px;
+}
+
+.contenedorinterno2 .img2 {
+  width: 260px;
+  height: 260px;
+}
+
+.contenedor1 {
+  margin-top: 40px;
+  background-color: rgba(25, 25, 26, 0.761);
+  color: #eeeeee;
+  text-align: left;
+  width: 100%;
+  height: 276px;
+  color: aliceblue;
+  font-size: 18px;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  border-bottom: none;
+  border-top: solid 2px #fdfdfd;
+  padding-top: 10px;
+  position: absolute;
+  bottom: 0;
+}
+/*# sourceMappingURL=v1.css.map */

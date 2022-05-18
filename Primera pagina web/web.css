@@ -1,0 +1,225 @@
+
+body{
+    background: #F2D0A7;
+    font-family: consolas; 
+    color: #586F8C;
+}
+h1{
+
+    text-align: center;
+    font-size:90px; 
+     
+}
+h2{
+    text-align: center;
+    font-size:60px;
+    
+}
+h3{
+    text-align: center;
+    font-size:40px;
+
+   
+}
+textarea{
+    width : 500px;
+	height : 100px; 
+}
+p{
+    margin-left: 140px;
+    margin-right: 140px;
+}
+.table1 {
+    align-items: center;
+    border: 1px solid #586F8C;
+    border-radius: 10px;
+  }
+.imagen2{
+    width : 170px;
+	height : 170px; 
+}
+.menu{
+    position: sticky; 
+    top: 0;
+    background-color:  #F2D0A7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+
+}
+.imagen3{
+    width : 100%;
+	height :800px; 
+ }
+.btn-neon{
+    position: relative;
+    display: inline-block;
+    margin: 0 75px;
+    padding: 10px 30px;
+    color: #586F8C;
+    letter-spacing: 4px;
+    font-size: 24px;
+    text-decoration: none;
+    overflow: hidden;
+    transition: 0.2s;
+}
+.btn-neon:hover{
+    background: #B9BF04;
+    box-shadow: 0 0 10px #B9BF04, 0 0 40px #B9BF04, 0 0 80px #B9BF04 ;
+    transition-delay: 1s;
+}
+.btn-neon span{
+    position: absolute;
+    display: block;
+}
+#span1{
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(90deg, transparent, #B9BF04);
+
+}
+.btn-neon:hover #span1{
+    left: 100%;
+    transition: 1s;
+
+}
+#span3{
+    bottom: 0;
+    right: -100%;
+    width: 100%;
+    height: 2px;
+    background: linear-gradient(270deg, transparent, #888C03);
+
+}
+.btn-neon:hover #span3{
+    right: 100%;
+    transition: 1s;
+    transition-delay: 0.5s;
+}
+#span2{
+    top: -100%;
+    right: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(180deg, transparent, #B9BF04);
+
+}
+.btn-neon:hover #span2{
+    top: 100%;
+    transition: 1s;
+    transition-delay: 0.25s;
+
+}
+#span4{
+    bottom: -100%;
+    left: 0;
+    width: 2px;
+    height: 100%;
+    background: linear-gradient(360deg, transparent, #B9BF04);
+
+}
+.btn-neon:hover #span4{
+    bottom: 100%;
+    transition: 1s;
+    transition-delay: 0.75s;
+
+}
+.galeria1{
+    width: 50%;
+    margin: auto;
+    list-style: none;
+    padding: 20;
+    box-sizing: border-box;
+    display: flex;
+  
+ 
+}
+.galeria1 li{
+    align-items: center;
+    margin: 30px;
+}
+.galeria1 img{
+    
+    width: 75px;
+    height: 75px;
+}
+.galeria{
+    width: 90%;
+    margin: auto;
+    list-style: none;
+    padding: 20;
+    box-sizing: border-box;
+    display: flex;
+ 
+}
+.galeria li{
+    margin: 5px;
+}
+.galeria img{
+    width: 150px;
+    height: 100px;
+}
+.modal{
+    display: none;
+}
+.modal:target{
+    display: block;
+    position: fixed;
+    background: rgba(0, 0, 0, 0);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal h3{
+    color: #888C03;
+    font-size: 30px;
+    text-align: center;
+    margin: 50px 0;
+}
+.imagen{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+.imagen a{
+    color: #888C03;
+    font-size: 40px;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.imagen a:nth-child(2){
+    margin: 0;
+    height: 100%;
+    flex-shrink: 2;
+
+}
+.imagen img{
+    width: 500px;
+    height: 100%;
+    border: 5px solid #888C03;
+    box-sizing: border-box;
+}
+.cerrar{
+    display: block;
+    background: #888C03;
+    width: 25px;
+    height: 25px;
+    margin: 15px auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    color:#586F8C;
+    padding: 5px;
+    border-radius: 50%;
+    line-height: 25px;
+}
+
+

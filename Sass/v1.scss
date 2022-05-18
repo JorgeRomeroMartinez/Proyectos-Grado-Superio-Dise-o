@@ -1,0 +1,84 @@
+ @import "v2";
+ $fondohf:rgba(55, 0, 255, 0.145);
+ $fondodiv:rgba(25, 25, 26, 0.761);
+ $colorhf: rgb(238, 238, 238);
+ $lista1: 50px, 18px, 30px, 16px;
+ $bordehf: solid 2px rgb(253, 253, 253);
+ @mixin hefo($fondohf) {
+    background-color: $fondohf;
+    @if $fondohf == rgba(55, 0, 255, 0.145){
+        text-align: center;
+        font-size: nth($lista1 , 3); 
+        width: 100%;
+        height: 70px;
+    }
+  }
+header{
+    @include hefo($fondohf);
+    color: $colorhf;
+    border-bottom: $bordehf;
+    display: flex;
+    justify-content: space-around;
+    backdrop-filter: blur(2px); 
+    h1{
+       color: $colorhf;
+       font-size: nth($lista1 , 1); 
+       padding-top: 5px;
+    }
+    button{
+        margin-top: 19px;
+        background-color: white;
+        color: black;
+        width: 80px;
+        height: 30px;
+        border-radius: 5px;
+    }
+    button:hover{
+        background-color:rgba(87, 87, 87, 0.857) ;  
+    }
+}
+img{
+    width: 100%;
+    height: 100%;
+    border:$bordehf;
+    margin-right: 10px ;
+}
+.im2{
+    display: flex;
+    justify-content: center;
+}
+.contenedor{
+    display: flex;
+    padding-top: 30px;
+    padding-left: 30px;
+    color: white;
+    height: 400px;
+    font-size: nth($lista1 , 4); 
+}
+.contenedorinterno2{
+    padding: 20px;
+    .img2{
+        width: 260px;
+        height: 260px
+    }
+}
+.contenedor1{
+    margin-top: 40px;
+    background-color: $fondodiv;
+    color: $colorhf;
+    text-align: left;
+    width: 100%;
+    height: 276px;
+    color: aliceblue;
+    font-size: nth($lista1 , 2); 
+    padding: 10px;
+    text-align: center;
+}
+footer{
+    @extend header;
+    border-bottom: none;
+    border-top: $bordehf;
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+}

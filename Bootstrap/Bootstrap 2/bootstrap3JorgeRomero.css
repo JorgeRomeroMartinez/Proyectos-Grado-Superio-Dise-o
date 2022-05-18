@@ -1,0 +1,116 @@
+
+body{
+    background-color: rgb(207, 207, 207);
+}
+.colora{
+    background-color: #3da5e2;
+    color: white;
+    border-radius: 0%;
+    border-color:#3da5e2;
+    width: 100%;
+    height: 80px;
+
+
+}
+.colorb{
+    background-color: #005385;
+    color: white;
+    border-radius: 0%;
+    border-color:#005385;
+    width: 100%;
+    height: 80px;
+
+}
+.colorc{
+    background-color: #003855;
+    color: white;
+    border-radius: 0%;
+    border-color:#003855;
+    width: 100%;
+    height: 80px;
+
+}
+.portafolio{
+    text-align: center;
+    color: #005385;
+    font-size: 40px;
+}
+.portafolio1{
+    text-align: left;
+    color: #005385;
+    font-size: 40px;
+}
+.portafolio2{
+    border-top: 4px solid #3da5e2;
+  
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+.foto{
+    margin-top: 80px;
+    margin-left: 50%;
+    width: 200px !important;
+    height: 200px !important;
+}
+.nombre1{
+    margin-top: 20px;
+    margin-left: 60px;
+    width: 200px
+
+}
+.contacto{
+    margin-left: 20%;
+    margin-right: 20%;
+    
+}
+footer{
+    margin-left: 35%;
+}
+.redes{
+    display: flex;
+    flex-direction: row;
+    }
+    .icono1{
+       border-radius: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #3da5e2;
+       width: 100px;
+       height: 100px;
+       margin: 5px;
+       font-size: 40px;
+       color: white;
+   }
+   .icono2{
+       border-radius: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #005385;
+       width: 100px;
+       height: 100px;
+       margin: 5px;
+       font-size: 40px;
+       color: white;
+   }
+   .icono3{
+       border-radius: 100%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       background-color: #923de2;
+       width: 100px;
+       height: 100px;
+       margin: 5px;
+       font-size: 40px;
+       color: white;
+   }
+   .boton_enviar{
+       width: 100px;
+       height: 40px;
+       border-radius: 4px;
+   }
